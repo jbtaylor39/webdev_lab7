@@ -3,9 +3,9 @@ var alertbox = document.getElementById("entrybutton").addEventListener("click", 
 }
 
 function popup() {
-    var x = document.getElementById("entryinput");
+    var s = document.getElementById("entryinput");
 
-    alert("Juan: " + x);
+    alert("Juan: " + s);
     document.getElementById
 }
 
