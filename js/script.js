@@ -1,11 +1,14 @@
 function init(){
-//add your javascrip between these two lines of code
- 
-
-let entrybutton = 
-function entrybutton() {
-  alert("I am an alert!");
+var alertbox = document.getElementById("entrybutton").addEventListener("click", popup);
 }
+
+function popup() {
+    var x = document.getElementById("entryinput");
+
+    alert("Juan: " + x);
+    document.getElementById
+}
+
 
 
 window.addEventListener('load', init);
