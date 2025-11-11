@@ -1,11 +1,10 @@
 function init(){
 var alertbox = document.getElementById("entrybutton").addEventListener("click", popup);
+var textentry = document.getElementById("entryinput").value;
 }
 
 function popup() {
-    var s = document.getElementById("entryinput");
-
-    alert("Juan: " + s);
+   alert("Juan: " + textentry);
     document.getElementById
 }
 
